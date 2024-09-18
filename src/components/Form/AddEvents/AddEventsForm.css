@@ -1,0 +1,70 @@
+.form-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  display: block;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group select, .form-group textarea {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group select:focus, .form-group textarea:focus {
+  border-color: #a9c9ff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.form-group-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-back,
+.btn-save {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-back {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.btn-save {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-back:hover,
+.btn-save:hover {
+  opacity: 0.9;
+}

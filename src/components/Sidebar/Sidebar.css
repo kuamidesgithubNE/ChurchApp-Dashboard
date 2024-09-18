@@ -1,0 +1,80 @@
+/* Sidebar Container */
+.sidebar {
+  width: 230px;
+  height: 100vh;
+  color: #202729;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+/* Logo Section */
+.sidebar .logo {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 8px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.sidebar .logo h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Divider Line */
+.sidebar hr {
+  border: 1px solid #34495e;
+}
+
+/* Sidebar Links */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 9px 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.sidebar-link li {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.sidebar-link i {
+  margin-right: 10px;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #576a81;
+  box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.07);
+}
+
+/* Active Link */
+.sidebar-link.active {
+  color: #576a81;
+  box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.07);
+  background-color: #ffffff;
+  font-weight: 500;
+}
+.link-title {
+  font-size: 13px;
+  margin: 15px 10px;
+  font-weight: 600;
+  color: #576a81;
+  letter-spacing: 1.5;
+}
+
+.sidebar-link:hover {
+  background-color: #34495e;
+  color: #fff;
+}
